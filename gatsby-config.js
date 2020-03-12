@@ -1,11 +1,13 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `주경야근 | 밤낮 없이 일하는 당신을 위한 블로그`,
+    name: `야근반장`,
+    siteUrl: `https://www.viewtreefull.com`,
+    description: `소프트웨어 개발 / 빅데이터 분석을 위한 지식과 노하우를 정리하고 공유하기 위한 블로그입니다.`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to ViewTeeFull.com, the blog for Software/Data Engineer`,
       maxWidth: 652,
     },
     social: [
@@ -40,9 +42,16 @@ module.exports = {
         basePath: "/",
         authorsPage: true,
         sources: {
-          local: true,
-          // contentful: true,
+          local: false,
+          contentful: true,
         },
+      },
+    },
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
     {
