@@ -2,7 +2,7 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: `주경야근 | 밤낮 없이 일하는 당신을 위한 블로그`,
+    title: `겨자씨 | 너희가 만일 믿음이 한 겨자씨만큼만 있으면 ... 너희가 못할 것이 없으리라`,
     name: `야근반장`,
     siteUrl: `https://www.viewtreefull.com`,
     description: `소프트웨어 개발 / 빅데이터 분석을 위한 지식과 노하우를 정리하고 공유하기 위한 블로그입니다.`,
