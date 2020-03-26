@@ -7,7 +7,7 @@ module.exports = {
     siteUrl: `https://www.viewtreefull.com`,
     description: `소프트웨어 개발 / 빅데이터 분석을 위한 지식과 노하우를 정리하고 공유하기 위한 블로그입니다.`,
     hero: {
-      heading: `Welcome to ViewTeeFull.com, the personal blog to share and archive the know-how`,
+      heading: `Welcome to 겨자씨, the personal blog to share and archive the know-how`,
       maxWidth: 652,
     },
     social: [
