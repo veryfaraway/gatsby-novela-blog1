@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",
+    "disqus-react": "^1.0.8",
     "dotenv": "^8.2.0",
     "gatsby": "^2.13.41",
     "gatsby-plugin-manifest": "^2.2.4",

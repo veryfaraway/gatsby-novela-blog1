@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: `겨자씨 | 너희가 만일 믿음이 한 겨자씨만큼만 있으면 ... 너희가 못할 것이 없으리라`,
     name: `야근반장`,
-    siteUrl: `https://www.viewtreefull.com`,
-    description: `소프트웨어 개발 / 빅데이터 분석을 위한 지식과 노하우를 정리하고 공유하기 위한 블로그입니다.`,
+    siteUrl: `https://mustard.viewtreefull.com`,
+    description: `취미 및 일상 생활 중에 유용한 정보를 보관/공유하기 위한 개인 블로그입니다.`,
     hero: {
       heading: `Welcome to 겨자씨, the personal blog to share and archive the know-how`,
       maxWidth: 652,
