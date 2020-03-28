@@ -83,8 +83,10 @@ const Article: Template = ({ pageContext, location }) => {
 
   const disqusConfig = {
     shortname: process.env.GATSBY_DISQUS_NAME,
-    // config: { identifier: slug, title },
-    config: { identifier: article.slug },
+    config: { 
+      identifier: article.slug,
+      title: article.title
+    },
   }
 
   return (
@@ -111,8 +113,6 @@ const Article: Template = ({ pageContext, location }) => {
           <DiscussionEmbed {...disqusConfig} />
         </NextArticle>
       )}
-      <NextArticle>
-      </NextArticle>
     </Layout>
   );
 };
