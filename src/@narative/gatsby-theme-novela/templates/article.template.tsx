@@ -21,6 +21,7 @@ import ArticleSEO from "../sections/article/Article.SEO";
 import ArticleShare from "../sections/article/Article.Share";
 
 import { Template } from "@types";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const siteQuery = graphql`
   {
