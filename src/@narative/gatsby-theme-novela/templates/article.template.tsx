@@ -21,6 +21,13 @@ import ArticleSEO from "../sections/article/Article.SEO";
 import ArticleShare from "../sections/article/Article.Share";
 
 import { Template } from "@types";
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee  } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faCheckSquare, faCoffee)
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const siteQuery = graphql`
